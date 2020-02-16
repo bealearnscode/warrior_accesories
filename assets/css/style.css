@@ -3,3 +3,15 @@
 {
     text-align: center;
 }
+
+#welcome
+{
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 48px;
+}
+
+#path
+{
+    Font-Family: 'Roboto Slab', Serif;
+    Font-Size: 16px;
+}
