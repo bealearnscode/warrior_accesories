@@ -1,3 +1,12 @@
+*
+{
+    color: #4e4537;
+}
+
+body
+{
+    background-color: #ffebcd;
+}
 #welcome,
 #path
 {
@@ -14,4 +23,11 @@
 {
     Font-Family: 'Roboto Slab', Serif;
     Font-Size: 16px;
+}
+
+.btn,
+.btn-large,
+.btn-small
+{
+    background-color: #b5aa99;
 }
