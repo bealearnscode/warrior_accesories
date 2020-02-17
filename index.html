@@ -18,83 +18,60 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+    <!-- Begin Content Container-->
     <div class="container">
 
-        <header id="header">
-            <h2 id="welcome">Welcome to Warrior Accessories</h2>
-        </header>
+        <!-- Begin Header Section-->
+        <!-- <header id="header">
+            <h2 class="banner_text">Welcome to Warrior Accessories</h2>
+            <h3 id="path">Please use the buttons to choose your path</h3>
+        </header> -->
+        <!-- End Header Section -->
 
-    
+        <!-- Begin Main Section -->
         <main>
+
+            <!-- Begin Button Row -->
             <div class="row">
-                <h3 id="path">Please use the buttons to choose your path</h3>
+                <section class="welcome">
+                    <h2 class="banner_text">Welcome to Warrior Accessories</h2>
+                    <h3 class="path">Please use the buttons to choose your path</h3>
+                </section>
 
-                <!-- Begin New Customer Button and Modal-->
+            
+
+                <!-- Begin New Customer Button -->
                 <div class="col l4 m4 s12">
-                    <a href="#" id="new-customer-modal-btn" class="waves-effect waves-light btn-large"><i class="material-icons left">person_add</i>New Customer</a>
+                    <a href="/customer_portal/new_customer.html" class="waves-effect waves-light btn-large path_button"><i class="material-icons left">person_add</i>New </br>Customer</a>
                 </div>
+                <!-- End New Customer Button -->
 
-                <div id="new-customer-modal" class="modal">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <span class="closeNewCustomer">&times;</span>
-                        <h2>Sign Up</h2>
-                      </div>
-                      <div class="modal-body">
-                        <p>Create an account on Warrior Accessories</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End New Customer Button and Modal-->
-                
-                <!-- Begin Returning Customer Button and Modal-->
+                <!-- Begin Returning Customer Button -->
                 <div class="col l4 m4 s12">
-                    <a href="#" id="returning-customer-modal-btn" class="waves-effect waves-light btn-large"><i class="material-icons left">person</i>Returning Customer</a>
+                    <a href="customer_portal/returning_customer.html" class="waves-effect waves-light btn-large path_button"><i class="material-icons left">person</i>Returning</br> Customer</a>
                 </div>
+                <!-- End Returning Customer Button -->
 
-                <div id="returning-customer-modal" class="modal">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <span class="closeReturningCustomer">&times;</span>
-                        <h2>Welcome Back!</h2>
-                      </div>
-                      <div class="modal-body">
-                        <p>Please sign in to Warrior Accessories</p>
-                      </div>
-                    </div>
-                </div>
-                <!-- End New Customer Button and Modal-->
-
-                <!-- Begin Inventory Button and Modal-->
+                <!-- Begin Inventory Button -->
                 <div class="col l4 m4 s12">
-                    <a href="#" id="inventory-modal-btn" class="waves-effect waves-light btn-large"><i class="material-icons left">supervisor_account</i>Inventory</a>
+                    <a href="manager_portal/inventory.html" class="waves-effect waves-light btn-large path_button"><i class="material-icons left">supervisor_account</i>Inventory</a>
                 </div>
-
-                <div id="inventory-modal" class="modal">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <span class="closeInventory">&times;</span>
-                        <h2>Inventory Check</h2>
-                      </div>
-                      <div class="modal-body">
-                        <p>Please sign in with your Manager Credentials</p>
-                      </div>
-                    </div>
-                </div>
-                <!-- End Inventory Button and Modal-->
+                <!-- End Button Row -->
+                   
             </div>
-            
-            
-           
-            
+            <!-- End Primary View -->
+
         </main>
+        <!-- End Main Section -->
 
+        <!-- Begin Footer Section -->
         <footer>
-
+            <p class="madeby">Made with <i class="material-icons">favorite</i> by Beatrix & Rhea</p>
         </footer>
+        <!-- End Footer Section -->
 
     </div>
+    <!-- End Content Container -->
 
     
     <!-- Compiled and minified JS -->
