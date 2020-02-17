@@ -67,8 +67,7 @@ i
     animation-duration: var(--modal-duration);
   }
   
-  .modal-header h2,
-  .modal-footer h3 
+  .modal-header h2
   {
     margin: 0;
   }
@@ -86,16 +85,6 @@ i
   {
     padding: 10px 20px;
     background: #fff;
-  }
-  
-  .modal-footer
-  {
-    background: var(--modal-color);
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
   }
   
   .closeNewCustomer,
