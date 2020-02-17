@@ -1,12 +1,12 @@
 *
 {
   box-sizing: border-box;
-  color: #4e4537;
+  /* color: #4e4537; */
 }
 
 body
 {
-    background-color: #ffebcd;
+    /* background-color: #ffebcd; */
 }
 /* header,
 footer
@@ -15,7 +15,7 @@ footer
 } */
 main
 {
-  background-color: #4e4537;
+  /* background-color: #4e4537; */
   height: 650px;
   margin: 0 auto;
 }
@@ -23,7 +23,7 @@ main
 .path
 {
     text-align: center;
-    color: #ffebcd;
+    /* color: #ffebcd; */
 }
 
 .banner_text
@@ -42,19 +42,19 @@ main
 .btn-large,
 .btn-small
 {
-    background-color: #b5aa99;
+    /* background-color: #b5aa99; */
 }
 
 .btn:hover,
 .btn-large:hover,
 .btn-small:hover
 {
-    background-color: #4e4537;
+    /* background-color: #4e4537; */
 }
 
 i
 {
-    color: #fff;
+    /* color: #fff; */
 }
 
 
