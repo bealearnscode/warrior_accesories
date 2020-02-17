@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Returning Customer | Warrior Accessories</title>
+    <title>Home | Warrior Accessories</title>
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- App CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -22,57 +25,140 @@
         <header id="header">
             <h2 class="banner_text">Welcome Back</h2>
         </header>
+        <!-- End Header Section-->
 
-    <div class="container">
+        <!-- Begin Main Section -->
         <main>
+            <!-- Begin Form Row -->
             <div class="row">
+                <!-- Begin Form -->
                 <form class="col s12">
+                  <!-- Begin Name Row -->
                   <div class="row">
+                    <!-- First Name -->
                     <div class="input-field col s12 l6">
                       <input id="first_name" type="text" class="validate">
                       <label for="first_name">First Name</label>
                     </div>
+                    <!-- Last Name -->
                     <div class="input-field col s12 l6">
                       <input id="last_name" type="text" class="validate">
                       <label for="last_name">Last Name</label>
                     </div>
                   </div>
+                  <!-- End Name Row -->
+
+                  <!-- Begin Credit Card Row -->
                   <div class="row">
+                    <!-- Credit Card Number -->
                     <div class="input-field col s12 l8">
-                      <input id="credit-card" type="text" class="validate">
+                      <input id="credit-card" type="text" class="validate" data-length="16">
                       <label for="credit-card">Credit Card</label>
                     </div>
+                    <!-- CVN -->
                     <div class="input-field col s12 l4">
                         <input id="cvn" type="text" class="validate">
                         <label for="cvn">CVN</label>
                       </div>
                   </div>
+                  <!-- End Credit Card Row -->
+
+                  <!-- Begin Email & Password Row -->
                   <div class="row">
+                    <!-- Email -->
                     <div class="input-field col s12">
                         <input id="email" type="email" class="validate">
                         <label for="email">Email</label>
                       </div>
+                    <!-- Password -->
                     <div class="input-field col s12 l6">
                       <input id="password" type="password" class="validate">
                       <label for="password">Password</label>
                     </div>
                   </div>
+                  <!-- End Email & Password Row -->
+
+                  <!-- Begin Phone Number Row -->
                   <div class="row">
                     <div class="input-field col s12 l6">
-                        <input id="phone-number" type="password" class="validate">
+                        <input id="phone-number" type="password" class="validate" data-length="10">
                         <label for="phone-number">Phone Number (optional)</label>
                     </div>
                   </div>
+                  <!-- End Phone Number Row -->
+
+                  <!-- Begin Instruction Row -->
+                  <div class="row">
+                    <p class="instructions">Choose what you would like and a matching pair(s) will be donated to the charity of your choice. Please make checks payable to ESU and write Sock Donation in the check memo (Socks available starting Nov 18th)</label>
+                    </p>
+                  </div>
+                  <!-- End Instruction Row -->
+
+                  <!-- Begin ESU Medium -->
+                  <div class="row">
+                    <div class="input-field col s12 l8">
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>ESU Colors - Medium - Men(6-8) Women(6-9) Donation $20</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End ESU Medium -->
+
+                  <!-- Begin ESU Large -->
+                  <div class="row">
+                    <div class="input-field col s12 l8">
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>ESU Colors - Large - Men(9-13) Donation $20</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End ESU Large -->
+
+                  <!-- Begin Neon Medium -->
+                  <div class="row">
+                    <div class="input-field col s12 l8">
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Neon Colors - Medium - Men(6-8) Women(6-9) Donation $20</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End Neon Medium -->
+
+                  <!-- Begin Neon Large -->
+                  <div class="row">
+                    <div class="input-field col s12 l8">
+                      <p>
+                        <label>
+                          <input type="checkbox" />
+                          <span>Neon Colors - Large - Men(9-13) Donation $20</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- End Neon Large -->
                 
                 </form>
-                <p class="instructions">Choose what you would like and a matching pair(s) will be donated to the charity of your choice. Please make checks payable to ESU and write Sock Donation in the check memo (Socks available starting Nov 18th)</p>
+                
               </div>
         </main>
-    </div>
+        <!-- End Main Section-->
 
-    <footer>
-        
-    </footer>
+    
+
+      <footer>
+          
+      </footer>
+    </div>
+  <!-- End Content Container -->
     <!-- Compiled and minified JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
