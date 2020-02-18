@@ -17,12 +17,73 @@
         <!-- App CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
+    <style>
+        body {
+          margin: 0;
+        }
+
+        .column {
+          float: left;
+          width: 50%;
+          padding: 15px;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width:600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
 <body>
     <header id="header"></header>
 
     <div class="container">
-        <main></main>
+        <main>
+            <header id="header">
+                <h3 class="banner_text" >Supervisor Inventory Forms</h3>
+            </header>
+            <div class="row">
+                <div class="column">
+                    <br><br>
+                    <a  class="waves-effect waves-light btn">Total Socks & Hats</a>
+                    <a  class="waves-effect waves-light btn">Total Large Socks</a><br>   
+                    <input type="text" id="socks">
+                    <label for="socks">Socks</label>
+                    <input type="text"  id="hats">
+                    <label for="hats">Hats</label>
+                    <br><br><br>
+
+                    <br>
+                    <a  class="waves-effect waves-light btn">Add Charity</a>
+                    <input type="text" id="add_charity">
+                    <label for="add_charity">Charity</label><br><br>
+                    <br><br>
+
+                    
+                    <a  class="waves-effect waves-light btn">Add New Sales Manager</a>
+                    <input type="text" id="new_manager_email">
+                    <label for="new_manager_email">Email</label>
+                    <input type="text" id="new_manager_password">
+                    <label for="new_manager_passwor">Password</label>
+
+                </div>
+                
+                <div class="column">
+                  <h2>Column</h2>
+                </div>
+            </div>  
+        </main>
     </div>
+
+  
 
     <footer>
         
