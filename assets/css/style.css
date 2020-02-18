@@ -20,7 +20,7 @@ main
   margin: 0 auto;
 }
 .banner_text,
-.path
+#path
 {
     text-align: center;
     /* color: #ffebcd; */
@@ -29,13 +29,13 @@ main
 .banner_text
 {
     Font-Family: 'Ruda', Sans-Serif;
-    Font-Size: 48px;
+    Font-Size: 4rem;
 }
 
-.path
+#path
 {
     Font-Family: 'Roboto Slab', Serif;
-    Font-Size: 16px;
+    Font-Size: 2rem;
 }
 
 .btn,
