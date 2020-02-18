@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Returning Customer | Warrior Accessories</title>
+    <title>Inventory | Manager's Portal | Warrior Accessories</title>
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -17,6 +17,7 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <!-- Begin Content Container-->
     <div class="container">
@@ -30,89 +31,183 @@
         <!-- Begin Main Section -->
         <main>
 
+          <!-- Begin Total Socks & Hats Row -->
           <div class="row">
+
               <div class="col s12 l4">
                   <a  class="waves-effect waves-light btn">Total Socks & Hats</a>
               </div>
+
               <div class="col s12 l4">
                 <input type="text" id="socks">
                   <label for="socks">Socks</label>
               </div>
+
               <div class="col s12 l4">
                   <input type="text"  id="hats">
                   <label for="hats">Hats</label>
               </div>
-          </div>
 
+          </div>
+          <!-- End Total Socks & Hats Row -->
+
+          <!-- Begin Total Large Socks Row -->
           <div class="row">
+
             <div class="col s12 l4">
               <a  class="waves-effect waves-light btn">Total Large Socks</a><br>
             </div>
+
             <div class="col s12 l4">
               <input type="text" id="large_socks">
               <label for="large_socks">Socks</label>
             </div>
-          </div>
 
+          </div>
+          <!-- Begin Total Large Socks Row -->
+
+          <!-- Begin Add Charity Row -->
           <div class="row">
+
             <div class="col s12 l4">
               <a class="waves-effect waves-light btn">Add Charity</a>
             </div>
+
             <div class="col s12 l8">
               <input type="text" id="add_charity">
               <label for="add_charity">Charity</label>
             </div>
-          </div>
 
+          </div>
+          <!-- End Add Charity Row -->
+
+          <!-- Begin Add New Manager Row -->
           <div class="row">
+
             <div class="col s12 l4">
               <a class="waves-effect waves-light btn">Add New Sales Manager</a>
             </div>
+
             <div class="col s12 l4">
                   <input type="text" id="new_manager_password">
                   <label for="new_manager_password">Password</label>
             </div>
+
             <div class="col s12 l4">
                   <input type="text" id="new_manager_email">
                   <label for="new_manager_email">Email</label>
             </div>
+
           </div>
-          <!-- Begin Search Customer -->
+          <!-- End Add New Manager Row -->
+
+          <!-- Begin Search Customer Row -->
           <div class="row">
+
             <div class="col s12 l3">
               <input type="text" id="search_customer">
               <label for="search_customer">Enter Customer's Email</label>
             </div>
+
             <div class="col s12 l3">
                   <a class="waves-effect waves-light btn get_customer_info">Search Customer</a>
             </div>
+
             <div class="card horizontal">
+
               <div class="card-stacked">
+
                 <div class="card-content display_customer_info">
                   <p>All customer info will go here.</p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Search Customer -->
 
-          <!-- Begin Search by CC -->
+              </div>
+
+            </div>
+
+          </div>
+          <!-- End Search Customer Row -->
+
+          <!-- Begin Search For CC -->
           <div class="row">
+
             <div class="col s12 l3">
               <input type="text" id="search_for_cc">
               <label for="search_for_cc">Enter Customer's Email to Retrieve Credit Card</label>
             </div>
+
             <div class="col s12 l3">
                   <a class="waves-effect waves-light btn get_customer_cc">Search Customer</a>
             </div>
-            <div class="card horizontal">
+
+            <div class="s12 l6 card horizontal">
+
               <div class="card-stacked">
+
                 <div class="card-content display_customer_cc">
                   <p>Decrypted CC info will go here..</p>
                 </div>
+
               </div>
+
             </div>
+
           </div>
+          <!-- End Search For CC -->
+
+          <!-- Begin to be Delivered Row -->
+          <div class="row">
+
+            <div class="col s12 l6">
+              <a class="waves-effect waves-light btn get_customer_info">To Be Delivered</a>
+            </div>
+
+            <div class="col s12 l6 card horizontal">
+              
+                <div class="card-stacked">
+
+                  <div class="card-content to_be_delivered">
+                    <p>Pending deliveries will go here.</p>
+                  </div>
+
+                </div>
+
+            </div>
+
+          </div>
+          <!-- End to be Delivered Row -->
+
+          <!-- Begin Total Socks & Hats for Charity -->
+          <div class="row">
+
+            <div class="col s12 l6">
+              <a class="waves-effect waves-light btn get_customer_info">Total Socks & Hats for Charity</a>
+            </div>
+
+            <div class="col s12 l6 card horizontal">
+        
+                <div class="card-stacked">
+
+                  <div class="card-content total_for_charity">
+                    <p>Total amount of items for charity will go here.</p>
+                  </div>
+
+                </div>
+        
+            </div>
+
+          </div>
+          <!-- End Total Socks & Hats for Charity -->
+
+          <!-- Begin Export Data -->
+          <div class="row">
+
+            <div class="col s12 l4">
+              <a  class="waves-effect waves-light btn">Export Using XML</a>
+            </div>
+
+          </div>
+          <!-- End Export Data -->
 
           <!-- Begin Delete Customer -->
           <div class="row">
@@ -125,15 +220,9 @@
             </div>
           </div>
           <!-- End Delete Customer -->
-                  
-                  
-              </div>
-          </div>  
-            
+                
         </main>
         <!-- End Main Section-->
-
-    
 
       <footer>
         <p class="madeby">Made with <i class="material-icons">favorite</i> by Beatrix & Rhea</p>
